@@ -1,0 +1,21 @@
+{
+  "name": "sometheme",
+  "displayName": "SomeTheme",
+  "description": "A good theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "CoolJosh0221",
+        "uiTheme": "vs-dark",
+        "path": "./themes/CoolJosh0221-color-theme.json"
+      }
+    ]
+  }
+}
